@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The drawer is always open in large screens. The header is always shown,
+  even in small screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--drawer
+            mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout__title headbarText"><a href="#" class="mdl-layout__title headbarText">Trifecta Groasys</a></span>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="fixed-header-drawer-exp">
+        </div>
+      </div>
+      <nav class="mdl-navigation headbarText">
+        <!-- Right aligned menu below button -->
+        <button id="header-menu-apps-icon"
+                class="mdl-button mdl-js-button mdl-button--icon" >
+          <i class="material-icons">apps</i>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+            for="header-menu-apps-icon">
+          <li class="mdl-menu__item">About</li>
+          <li class="mdl-menu__item">Contact</li>
+          <li disabled class="mdl-menu__item">Disabled Action</li>
+          <li class="mdl-menu__item">Legal information</li>
+        </ul>
+        <!-- Right aligned menu below button -->
+        <button id="header-menu-notifications-icon"
+                class="mdl-button mdl-js-button mdl-button--icon" >
+          <!-- Number badge on icon -->
+          <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">notifications</div>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+            for="header-menu-notifications-icon">
+          <li class="mdl-menu__item">About</li>
+          <li class="mdl-menu__item">Contact</li>
+          <li disabled class="mdl-menu__item">Disabled Action</li>
+          <li class="mdl-menu__item">Legal information</li>
+        </ul>
+        <!-- Right aligned menu below button -->
+        <button id="header-menu-user-icon"
+                class="mdl-button mdl-js-button mdl-button--icon" >
+          <i class="material-icons">person</i>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+            for="header-menu-user-icon">
+          <li class="mdl-menu__item">About</li>
+          <li class="mdl-menu__item">Contact</li>
+          <li disabled class="mdl-menu__item">Disabled Action</li>
+          <li class="mdl-menu__item">Legal information</li>
+        </ul>
+        <!-- Right aligned menu below button -->
+        <button id="header-menu-upper-right"
+                class="mdl-button mdl-js-button mdl-button--icon" >
+          <i class="material-icons">more_vert</i>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+            for="header-menu-upper-right">
+          <li class="mdl-menu__item">About</li>
+          <li class="mdl-menu__item">Contact</li>
+          <li disabled class="mdl-menu__item">Disabled Action</li>
+          <li class="mdl-menu__item">Legal information</li>
+        </ul>
+      </nav>
+    </div>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout__title">Trifecta Groasys</span>
+    <nav class="mdl-navigation navdrawer-nav">
+      <a class="mdl-navigation__link" href="#"><i class="material-icons drawer__material-icons">dashboard  </i>  Dashboard</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">memory  </i>  Sensors</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">settings_input_component  </i>  Controllers</a>
+      <hr>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">note_add  </i>  Add Fish Feeding</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">colorize  </i>  Add Manual Test</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">center_focus_weak  </i>  Nitrate</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">center_focus_weak  </i>  Dissolved Oxygen</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">center_focus_weak  </i>  pH</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">center_focus_weak  </i>  Water Temp</a>
+      <hr>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">note_add  </i>  Add New Recipe</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">tune  </i>  Leafy Greens</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">tune  </i>  Hot Crops</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">tune  </i>  Fruiting Vine</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">tune  </i>  Schedule 4</a>
+      <hr>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">settings  </i>  Settings</a>
+      <a class="mdl-navigation__link" href="#"><i class="material-icons">help  </i>  Help & Feedback</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <!-- Your content goes here -->
+      <body>
+        <div>Shell is working!  Shell is working!</div>
+      </body>
+    </div>
+  </main>
+</div>
+
